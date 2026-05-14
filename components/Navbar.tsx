@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { Menu, X } from "lucide-react";
 import { AnimatePresence, motion } from "framer-motion";
@@ -40,11 +41,21 @@ export default function Navbar() {
     >
       <nav className="max-w-7xl mx-auto px-6 lg:px-10 h-20 flex items-center justify-between">
         {/* Logo */}
-        <Link href="/" className="flex items-center gap-2.5 group">
-          <span className="text-lg font-semibold tracking-[0.2em] text-[#0F2234] uppercase">
-            ZENTOR
-          </span>
-          <span className="w-1.5 h-1.5 rounded-full bg-[#C7AB65] group-hover:scale-125 transition-transform duration-300" />
+        <Link href="/" className="flex items-center gap-3 group">
+          <Image
+            src="/images/isotipo-azul.png"
+            alt="Zentor isotipo"
+            width={36}
+            height={36}
+            className="object-contain"
+          />
+          <Image
+            src="/images/logotipo-negro.png"
+            alt="Zentor"
+            width={100}
+            height={28}
+            className="object-contain"
+          />
         </Link>
 
         {/* Desktop Links */}
@@ -62,9 +73,7 @@ export default function Navbar() {
               {link.label}
               <span
                 className={`absolute -bottom-0.5 left-0 h-px bg-[#C7AB65] transition-all duration-300 ${
-                  pathname === link.href
-                    ? "w-full"
-                    : "w-0 group-hover:w-full"
+                  pathname === link.href ? "w-full" : "w-0 group-hover:w-full"
                 }`}
               />
             </Link>
@@ -75,7 +84,7 @@ export default function Navbar() {
         <div className="hidden lg:block">
           <Link
             href="/contacto"
-            className="px-5 py-2.5 text-xs font-semibold tracking-[0.12em] uppercase border border-[#C7AB65] text-[#C7AB65] hover:bg-[#C7AB65] hover:text-black transition-all duration-300"
+            className="px-5 py-2.5 text-xs font-semibold tracking-[0.12em] uppercase border border-[#C7AB65] text-[#C7AB65] hover:bg-[#C7AB65] hover:text-white transition-all duration-300"
           >
             Solicitar información
           </Link>
@@ -83,7 +92,7 @@ export default function Navbar() {
 
         {/* Mobile toggle */}
         <button
-          className="lg:hidden text-[#334155] hover:text-[#0F2234] transition-colors p-1"
+          className="lg:hidden text-[#0F2234]/70 hover:text-[#0F2234] transition-colors p-1"
           onClick={() => setMobileOpen((v) => !v)}
           aria-label="Menú"
         >
@@ -107,7 +116,7 @@ export default function Navbar() {
                 <Link
                   key={link.href}
                   href={link.href}
-                  className={`py-3.5 text-sm font-medium border-b border-[#0F2234]/[0.07] transition-colors ${
+                  className={`py-3.5 text-sm font-medium border-b border-[#0F2234]/[0.06] transition-colors ${
                     pathname === link.href
                       ? "text-[#C7AB65]"
                       : "text-[#334155] hover:text-[#0F2234]"
@@ -118,7 +127,7 @@ export default function Navbar() {
               ))}
               <Link
                 href="/contacto"
-                className="mt-4 px-5 py-3.5 text-xs font-semibold tracking-[0.12em] uppercase border border-[#C7AB65] text-[#C7AB65] text-center hover:bg-[#C7AB65] hover:text-black transition-all duration-300"
+                className="mt-4 px-5 py-3.5 text-xs font-semibold tracking-[0.12em] uppercase border border-[#C7AB65] text-[#C7AB65] text-center hover:bg-[#C7AB65] hover:text-white transition-all duration-300"
               >
                 Solicitar información
               </Link>

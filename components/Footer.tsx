@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { MapPin, Mail, Phone, Linkedin, Instagram } from "lucide-react";
 
 const navLinks = [
@@ -17,31 +18,42 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
           {/* Brand */}
           <div className="lg:col-span-2">
-            <div className="flex items-center gap-2.5 mb-6">
-              <span className="text-lg font-semibold tracking-[0.2em] text-white uppercase">
-                ZENTOR
-              </span>
-              <span className="w-1.5 h-1.5 rounded-full bg-[#C7AB65]" />
+            {/* Logo blanco para fondo oscuro */}
+            <div className="flex items-center gap-3 mb-6">
+              <Image
+                src="/images/isotipo-dorado.png"
+                alt="Zentor isotipo"
+                width={40}
+                height={40}
+                className="object-contain"
+              />
+              <Image
+                src="/images/logotipo-blanco.png"
+                alt="Zentor"
+                width={110}
+                height={30}
+                className="object-contain"
+              />
             </div>
-            <p className="text-white/35 leading-relaxed text-sm font-normal max-w-sm mb-2">
+            <p className="text-white/50 leading-relaxed text-sm font-normal max-w-sm mb-2">
               Empresa de construcción e infraestructura orientada al sector
               corporativo, institucional y comercial.
             </p>
-            <p className="text-[#C7AB65]/50 text-xs tracking-wider font-normal">
+            <p className="text-[#C7AB65]/60 text-xs tracking-wider font-normal">
               Parte del grupo Biagi & Varnoux.
             </p>
             <div className="flex items-center gap-3 mt-8">
               <a
                 href="#"
                 aria-label="LinkedIn"
-                className="w-9 h-9 border border-white/[0.08] flex items-center justify-center text-white/30 hover:text-[#C7AB65] hover:border-[#C7AB65]/30 transition-all duration-300"
+                className="w-9 h-9 border border-white/[0.12] flex items-center justify-center text-white/40 hover:text-[#C7AB65] hover:border-[#C7AB65]/40 transition-all duration-300"
               >
                 <Linkedin size={20} />
               </a>
               <a
                 href="#"
                 aria-label="Instagram"
-                className="w-9 h-9 border border-white/[0.08] flex items-center justify-center text-white/30 hover:text-[#C7AB65] hover:border-[#C7AB65]/30 transition-all duration-300"
+                className="w-9 h-9 border border-white/[0.12] flex items-center justify-center text-white/40 hover:text-[#C7AB65] hover:border-[#C7AB65]/40 transition-all duration-300"
               >
                 <Instagram size={20} />
               </a>
@@ -58,7 +70,7 @@ export default function Footer() {
                 <li key={link.href}>
                   <Link
                     href={link.href}
-                    className="text-sm text-white/35 hover:text-[#C7AB65] transition-colors duration-200 font-normal"
+                    className="text-sm text-white/50 hover:text-[#C7AB65] transition-colors duration-200 font-normal"
                   >
                     {link.label}
                   </Link>
@@ -74,34 +86,25 @@ export default function Footer() {
             </h4>
             <ul className="space-y-4">
               <li className="flex items-start gap-3">
-                <MapPin
-                  size={18}
-                  className="text-[#C7AB65]/50 flex-shrink-0 mt-0.5"
-                />
-                <span className="text-sm text-white/35 font-normal leading-relaxed">
+                <MapPin size={18} className="text-[#C7AB65]/60 flex-shrink-0 mt-0.5" strokeWidth={2} />
+                <span className="text-sm text-white/50 font-normal leading-relaxed">
                   La Paz, Bolivia
                 </span>
               </li>
               <li className="flex items-start gap-3">
-                <Mail
-                  size={18}
-                  className="text-[#C7AB65]/50 flex-shrink-0 mt-0.5"
-                />
+                <Mail size={18} className="text-[#C7AB65]/60 flex-shrink-0 mt-0.5" strokeWidth={2} />
                 <a
                   href="mailto:info@zentor.bo"
-                  className="text-sm text-white/35 hover:text-[#C7AB65] transition-colors duration-200 font-normal"
+                  className="text-sm text-white/50 hover:text-[#C7AB65] transition-colors duration-200 font-normal"
                 >
                   info@zentor.bo
                 </a>
               </li>
               <li className="flex items-start gap-3">
-                <Phone
-                  size={18}
-                  className="text-[#C7AB65]/50 flex-shrink-0 mt-0.5"
-                />
+                <Phone size={18} className="text-[#C7AB65]/60 flex-shrink-0 mt-0.5" strokeWidth={2} />
                 <a
                   href="tel:+591"
-                  className="text-sm text-white/35 hover:text-[#C7AB65] transition-colors duration-200 font-normal"
+                  className="text-sm text-white/50 hover:text-[#C7AB65] transition-colors duration-200 font-normal"
                 >
                   +591 — —
                 </a>
@@ -111,13 +114,13 @@ export default function Footer() {
         </div>
 
         {/* Bottom bar */}
-        <div className="pt-8 border-t border-white/[0.05] flex flex-col sm:flex-row items-center justify-between gap-4">
-          <p className="text-[11px] text-white/20 font-normal">
+        <div className="pt-8 border-t border-white/[0.07] flex flex-col sm:flex-row items-center justify-between gap-4">
+          <p className="text-[11px] text-white/25 font-normal">
             © {new Date().getFullYear()} Zentor. Todos los derechos reservados.
           </p>
-          <p className="text-[11px] text-white/20 font-normal">
+          <p className="text-[11px] text-white/25 font-normal">
             Parte del grupo{" "}
-            <span className="text-[#C7AB65]/40">Biagi & Varnoux</span>
+            <span className="text-[#C7AB65]/50">Biagi & Varnoux</span>
           </p>
         </div>
       </div>
