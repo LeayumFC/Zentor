@@ -35,7 +35,7 @@ export default function NosotrosPage() {
   return (
     <main>
       {/* Hero */}
-      <section className="relative pt-40 pb-28 bg-[#0F2234] overflow-hidden">
+      <section className="relative pt-40 pb-28 bg-white overflow-hidden">
         <div className="absolute inset-0 subtle-grid opacity-60" />
         <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-[#C7AB65]/15 to-transparent" />
         <div className="max-w-7xl mx-auto px-6 lg:px-10 relative">
@@ -46,11 +46,11 @@ export default function NosotrosPage() {
                 Nosotros
               </span>
             </div>
-            <h1 className="text-5xl md:text-6xl lg:text-[3.75rem] font-light text-white leading-tight tracking-tight mb-8 max-w-3xl">
+            <h1 className="text-5xl md:text-6xl lg:text-[3.75rem] font-light text-[#0F2234] leading-tight tracking-tight mb-8 max-w-3xl">
               Construcción e infraestructura con{" "}
               <span className="text-[#C7AB65] italic">visión corporativa.</span>
             </h1>
-            <p className="text-lg text-white/40 font-light leading-relaxed max-w-2xl">
+            <p className="text-lg text-[#64748B] font-light leading-relaxed max-w-2xl">
               Zentor nace con el objetivo de desarrollar proyectos de
               infraestructura mediante un enfoque basado en organización,
               profesionalismo y capacidad operativa.
@@ -60,19 +60,19 @@ export default function NosotrosPage() {
       </section>
 
       {/* Sections */}
-      <section className="py-28 bg-[#0F2234]">
+      <section className="py-28 bg-white">
         <div className="max-w-7xl mx-auto px-6 lg:px-10">
           <div className="grid lg:grid-cols-2 gap-16 lg:gap-24">
             {sections.map((s, i) => (
               <FadeIn key={s.label} delay={i * 0.1}>
-                <div className="border-t border-white/[0.07] pt-8">
+                <div className="border-t border-[#0F2234]/[0.09] pt-8">
                   <div className="flex items-center gap-4 mb-5">
                     <div className="h-px w-8 bg-[#C7AB65]/60" />
                     <h2 className="text-xs font-semibold text-[#C7AB65] tracking-[0.2em] uppercase">
                       {s.label}
                     </h2>
                   </div>
-                  <p className="text-white/45 font-light leading-relaxed">
+                  <p className="text-[#64748B] font-light leading-relaxed">
                     {s.content}
                   </p>
                 </div>
@@ -83,7 +83,7 @@ export default function NosotrosPage() {
       </section>
 
       {/* Values strip */}
-      <section className="py-20 bg-[#0E2132] border-y border-white/[0.05]">
+      <section className="py-20 bg-[#F4F5F8] border-y border-[#0F2234]/[0.07]">
         <div className="max-w-7xl mx-auto px-6 lg:px-10">
           <FadeIn className="grid grid-cols-1 md:grid-cols-3 gap-0">
             {[
@@ -94,11 +94,11 @@ export default function NosotrosPage() {
               <div
                 key={v.title}
                 className={`py-10 px-10 ${
-                  i !== 2 ? "border-b md:border-b-0 md:border-r border-white/[0.06]" : ""
+                  i !== 2 ? "border-b md:border-b-0 md:border-r border-[#0F2234]/[0.08]" : ""
                 }`}
               >
-                <div className="text-xl font-light text-white mb-2">{v.title}</div>
-                <div className="text-sm text-white/30 font-light">{v.sub}</div>
+                <div className="text-xl font-light text-[#0F2234] mb-2">{v.title}</div>
+                <div className="text-sm text-[#94A3B8] font-light">{v.sub}</div>
               </div>
             ))}
           </FadeIn>

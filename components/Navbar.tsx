@@ -34,14 +34,14 @@ export default function Navbar() {
     <header
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
         scrolled
-          ? "bg-[#0F2234]/90 backdrop-blur-2xl border-b border-white/[0.06] shadow-[0_1px_40px_rgba(0,0,0,0.6)]"
+          ? "bg-white/95 backdrop-blur-2xl border-b border-[#0F2234]/[0.08] shadow-[0_2px_20px_rgba(15,34,52,0.08)]"
           : "bg-transparent"
       }`}
     >
       <nav className="max-w-7xl mx-auto px-6 lg:px-10 h-20 flex items-center justify-between">
         {/* Logo */}
         <Link href="/" className="flex items-center gap-2.5 group">
-          <span className="text-lg font-semibold tracking-[0.2em] text-white uppercase">
+          <span className="text-lg font-semibold tracking-[0.2em] text-[#0F2234] uppercase">
             ZENTOR
           </span>
           <span className="w-1.5 h-1.5 rounded-full bg-[#C7AB65] group-hover:scale-125 transition-transform duration-300" />
@@ -56,7 +56,7 @@ export default function Navbar() {
               className={`relative text-sm font-medium tracking-wide transition-colors duration-200 group ${
                 pathname === link.href
                   ? "text-[#C7AB65]"
-                  : "text-white/60 hover:text-white"
+                  : "text-[#475569] hover:text-[#0F2234]"
               }`}
             >
               {link.label}
@@ -83,7 +83,7 @@ export default function Navbar() {
 
         {/* Mobile toggle */}
         <button
-          className="lg:hidden text-white/70 hover:text-white transition-colors p-1"
+          className="lg:hidden text-[#0F2234]/70 hover:text-[#0F2234] transition-colors p-1"
           onClick={() => setMobileOpen((v) => !v)}
           aria-label="Menú"
         >
@@ -100,17 +100,17 @@ export default function Navbar() {
             animate={{ opacity: 1, height: "auto" }}
             exit={{ opacity: 0, height: 0 }}
             transition={{ duration: 0.3, ease: "easeInOut" }}
-            className="lg:hidden overflow-hidden bg-[#0F2234]/98 backdrop-blur-2xl border-b border-white/[0.06]"
+            className="lg:hidden overflow-hidden bg-white/98 backdrop-blur-2xl border-b border-[#0F2234]/[0.08]"
           >
             <div className="max-w-7xl mx-auto px-6 py-6 flex flex-col gap-1">
               {navLinks.map((link) => (
                 <Link
                   key={link.href}
                   href={link.href}
-                  className={`py-3.5 text-sm font-medium border-b border-white/[0.05] transition-colors ${
+                  className={`py-3.5 text-sm font-medium border-b border-[#0F2234]/[0.07] transition-colors ${
                     pathname === link.href
                       ? "text-[#C7AB65]"
-                      : "text-white/60 hover:text-white"
+                      : "text-[#475569] hover:text-[#0F2234]"
                   }`}
                 >
                   {link.label}

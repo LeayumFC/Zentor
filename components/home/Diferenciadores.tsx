@@ -37,7 +37,7 @@ const cards = [
 
 export default function Diferenciadores() {
   return (
-    <section className="py-32 bg-[#0E2132] relative">
+    <section className="py-32 bg-[#F4F5F8] relative">
       <div className="absolute inset-0 dot-grid" />
       <div className="relative max-w-7xl mx-auto px-6 lg:px-10">
         {/* Header */}
@@ -55,14 +55,14 @@ export default function Diferenciadores() {
             </span>
             <div className="h-px w-14 bg-[#C7AB65]" />
           </div>
-          <h2 className="text-4xl md:text-[2.75rem] font-light text-white leading-tight tracking-tight max-w-2xl mx-auto">
+          <h2 className="text-4xl md:text-[2.75rem] font-light text-[#0F2234] leading-tight tracking-tight max-w-2xl mx-auto">
             Un enfoque corporativo dentro del{" "}
             <span className="text-[#C7AB65] italic">sector construcción.</span>
           </h2>
         </motion.div>
 
         {/* Cards grid */}
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-0 border border-white/[0.05]">
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-0 border border-[#0F2234]/[0.07]">
           {cards.map((card, i) => {
             const Icon = card.icon;
             return (
@@ -72,7 +72,7 @@ export default function Diferenciadores() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.6, delay: i * 0.1 }}
-                className="group relative p-8 lg:p-10 border-r border-b border-white/[0.05] last:border-r-0 hover:bg-[#142A3C] transition-colors duration-400 cursor-default overflow-hidden"
+                className="group relative p-8 lg:p-10 border-r border-b border-[#0F2234]/[0.07] last:border-r-0 hover:bg-[#F0F3F7] transition-colors duration-400 cursor-default overflow-hidden"
               >
                 {/* Gold top line on hover */}
                 <div className="absolute top-0 left-0 right-0 h-[2px] bg-gradient-to-r from-[#C7AB65]/0 via-[#C7AB65] to-[#C7AB65]/0 scale-x-0 group-hover:scale-x-100 transition-transform duration-500 origin-left" />
@@ -88,10 +88,10 @@ export default function Diferenciadores() {
                   </div>
                 </div>
 
-                <h3 className="text-sm font-semibold text-white/90 mb-3 leading-snug tracking-wide">
+                <h3 className="text-sm font-semibold text-[#0F2234]/90 mb-3 leading-snug tracking-wide">
                   {card.title}
                 </h3>
-                <p className="text-sm text-white/35 leading-relaxed font-light">
+                <p className="text-sm text-[#94A3B8] leading-relaxed font-light">
                   {card.description}
                 </p>
               </motion.div>

@@ -37,7 +37,7 @@ const steps = [
 
 export default function Proceso() {
   return (
-    <section className="py-32 bg-[#0F2234] relative overflow-hidden">
+    <section className="py-32 bg-white relative overflow-hidden">
       <div className="absolute inset-0 subtle-grid opacity-60" />
 
       <div className="relative max-w-7xl mx-auto px-6 lg:px-10">
@@ -56,7 +56,7 @@ export default function Proceso() {
             </span>
             <div className="h-px w-14 bg-[#C7AB65]" />
           </div>
-          <h2 className="text-4xl md:text-[2.75rem] font-light text-white tracking-tight leading-tight">
+          <h2 className="text-4xl md:text-[2.75rem] font-light text-[#0F2234] tracking-tight leading-tight">
             Un proceso basado en{" "}
             <span className="text-[#C7AB65] italic">planificación y control.</span>
           </h2>
@@ -77,15 +77,15 @@ export default function Proceso() {
               className="group relative flex flex-col items-center lg:items-start text-center lg:text-left"
             >
               {/* Step marker */}
-              <div className="relative z-10 w-11 h-11 border border-[#C7AB65]/25 group-hover:border-[#C7AB65]/60 bg-[#0F2234] flex items-center justify-center mb-6 transition-colors duration-400">
+              <div className="relative z-10 w-11 h-11 border border-[#C7AB65]/25 group-hover:border-[#C7AB65]/60 bg-white flex items-center justify-center mb-6 transition-colors duration-400">
                 <span className="text-[11px] font-medium text-[#C7AB65]/60 group-hover:text-[#C7AB65] tracking-wider transition-colors duration-400">
                   {step.number}
                 </span>
               </div>
-              <h3 className="text-sm font-semibold text-white/80 mb-2.5 group-hover:text-white transition-colors duration-300">
+              <h3 className="text-sm font-semibold text-[#0F2234] mb-2.5 group-hover:text-[#0F2234] transition-colors duration-300">
                 {step.title}
               </h3>
-              <p className="text-xs text-white/30 leading-relaxed font-light">
+              <p className="text-xs text-[#94A3B8] leading-relaxed font-light">
                 {step.description}
               </p>
             </motion.div>

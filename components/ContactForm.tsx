@@ -48,8 +48,8 @@ export default function ContactForm() {
         <div className="w-16 h-16 border border-[#C7AB65]/40 flex items-center justify-center mb-6">
           <Check size={24} className="text-[#C7AB65]" />
         </div>
-        <h3 className="text-xl font-light text-white mb-3">Mensaje enviado</h3>
-        <p className="text-white/40 font-light max-w-sm leading-relaxed">
+        <h3 className="text-xl font-light text-[#0F2234] mb-3">Mensaje enviado</h3>
+        <p className="text-[#64748B] font-light max-w-sm leading-relaxed">
           Gracias por contactarnos. Nuestro equipo se pondrá en contacto con
           usted a la brevedad.
         </p>
@@ -58,7 +58,7 @@ export default function ContactForm() {
   }
 
   const inputClass =
-    "w-full bg-transparent border border-white/[0.1] px-4 py-3.5 text-sm text-white/80 placeholder:text-white/20 focus:outline-none focus:border-[#C7AB65]/50 transition-colors duration-300 font-light";
+    "w-full bg-transparent border border-white/[0.1] px-4 py-3.5 text-sm text-[#0F2234] placeholder:text-[#CBD5E1] focus:outline-none focus:border-[#C7AB65]/50 transition-colors duration-300 font-light";
 
   return (
     <div className="space-y-4">
@@ -117,11 +117,11 @@ export default function ContactForm() {
             onChange={handleChange}
             className={`${inputClass} appearance-none cursor-pointer`}
           >
-            <option value="" className="bg-[#162C3E] text-white/40">
+            <option value="" className="bg-white text-[#64748B]">
               Tipo de proyecto
             </option>
             {tiposProyecto.map((t) => (
-              <option key={t} value={t} className="bg-[#162C3E] text-white">
+              <option key={t} value={t} className="bg-white text-[#0F2234]">
                 {t}
               </option>
             ))}

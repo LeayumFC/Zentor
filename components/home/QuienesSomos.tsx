@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 export default function QuienesSomos() {
   return (
-    <section className="py-32 bg-[#0F2234]">
+    <section className="py-32 bg-white">
       <div className="max-w-7xl mx-auto px-6 lg:px-10">
         <div className="grid lg:grid-cols-2 gap-20 lg:gap-28 items-center">
           {/* Text */}
@@ -20,12 +20,12 @@ export default function QuienesSomos() {
                 Quiénes somos
               </span>
             </div>
-            <h2 className="text-4xl md:text-[2.75rem] font-light text-white leading-tight mb-10 tracking-tight">
+            <h2 className="text-4xl md:text-[2.75rem] font-light text-[#0F2234] leading-tight mb-10 tracking-tight">
               Una empresa orientada a la ejecución{" "}
               <span className="text-[#C7AB65] italic">organizada</span> y
               profesional.
             </h2>
-            <div className="space-y-5 text-white/45 font-light leading-relaxed">
+            <div className="space-y-5 text-[#64748B] font-light leading-relaxed">
               <p>
                 Zentor es una empresa enfocada en construcción, remodelación,
                 adecuación e infraestructura corporativa, orientada
@@ -55,7 +55,7 @@ export default function QuienesSomos() {
             transition={{ duration: 0.8, delay: 0.15, ease: [0.25, 0.1, 0.25, 1] }}
             className="relative"
           >
-            <div className="relative aspect-[4/5] bg-[#13273A] overflow-hidden">
+            <div className="relative aspect-[4/5] bg-[#0F2234] overflow-hidden">
               <div className="absolute inset-0 subtle-grid" />
               {/* Corner accents */}
               <div className="absolute top-5 left-5 w-8 h-8 border-t-2 border-l-2 border-[#C7AB65]/40" />
@@ -63,14 +63,14 @@ export default function QuienesSomos() {
               <div className="absolute bottom-5 left-5 w-8 h-8 border-b-2 border-l-2 border-[#C7AB65]/40" />
               <div className="absolute bottom-5 right-5 w-8 h-8 border-b-2 border-r-2 border-[#C7AB65]/40" />
               {/* Inner border */}
-              <div className="absolute top-12 left-12 right-12 bottom-12 border border-white/[0.04]" />
+              <div className="absolute top-12 left-12 right-12 bottom-12 border border-[#0F2234]/[0.06]" />
               {/* Center mark */}
               <div className="absolute inset-0 flex flex-col items-center justify-center gap-4">
-                <div className="text-5xl font-light text-white/[0.06] tracking-[0.3em] uppercase">
+                <div className="text-5xl font-light text-[#0F2234]/[0.06] tracking-[0.3em] uppercase">
                   ZENTOR
                 </div>
                 <div className="h-px w-16 bg-[#C7AB65]/20" />
-                <div className="text-[10px] text-white/15 tracking-[0.35em] uppercase">
+                <div className="text-[10px] text-[#CBD5E1] tracking-[0.35em] uppercase">
                   Infraestructura Corporativa
                 </div>
               </div>

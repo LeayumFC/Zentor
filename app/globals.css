@@ -3,7 +3,8 @@
 @tailwind utilities;
 
 :root {
-  --color-bg: #0F2234;
+  --color-bg: #FFFFFF;
+  --color-navy: #0F2234;
   --color-gold: #C7AB65;
   --font-inter: 'Inter', sans-serif;
 }
@@ -19,8 +20,8 @@ html {
 }
 
 body {
-  background-color: #0F2234;
-  color: #f5f5f5;
+  background-color: #FFFFFF;
+  color: #0F2234;
   font-family: var(--font-inter);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -30,10 +31,10 @@ body {
   width: 4px;
 }
 ::-webkit-scrollbar-track {
-  background: #0F2234;
+  background: #F7F8FA;
 }
 ::-webkit-scrollbar-thumb {
-  background: #2a2a2a;
+  background: #CBD5E1;
   border-radius: 2px;
 }
 ::-webkit-scrollbar-thumb:hover {
@@ -47,13 +48,13 @@ body {
 
 @layer utilities {
   .dot-grid {
-    background-image: radial-gradient(circle, rgba(255,255,255,0.05) 1px, transparent 1px);
+    background-image: radial-gradient(circle, rgba(15,34,52,0.06) 1px, transparent 1px);
     background-size: 32px 32px;
   }
   .subtle-grid {
     background-image:
-      linear-gradient(rgba(255,255,255,0.025) 1px, transparent 1px),
-      linear-gradient(90deg, rgba(255,255,255,0.025) 1px, transparent 1px);
+      linear-gradient(rgba(15,34,52,0.04) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(15,34,52,0.04) 1px, transparent 1px);
     background-size: 64px 64px;
   }
 }

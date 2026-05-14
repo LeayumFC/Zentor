@@ -40,7 +40,7 @@ export default function LicitacionesPage() {
   return (
     <main>
       {/* Hero */}
-      <section className="relative pt-40 pb-28 bg-[#0F2234] overflow-hidden">
+      <section className="relative pt-40 pb-28 bg-white overflow-hidden">
         <div className="absolute inset-0 subtle-grid opacity-60" />
         <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-[#C7AB65]/15 to-transparent" />
         {/* Decorative element */}
@@ -57,11 +57,11 @@ export default function LicitacionesPage() {
                 Licitaciones
               </span>
             </div>
-            <h1 className="text-5xl md:text-6xl lg:text-[3.75rem] font-light text-white leading-tight tracking-tight mb-8 max-w-3xl">
+            <h1 className="text-5xl md:text-6xl lg:text-[3.75rem] font-light text-[#0F2234] leading-tight tracking-tight mb-8 max-w-3xl">
               Preparados para proyectos{" "}
               <span className="text-[#C7AB65] italic">de mayor escala.</span>
             </h1>
-            <p className="text-lg text-white/40 font-light leading-relaxed max-w-2xl">
+            <p className="text-lg text-[#64748B] font-light leading-relaxed max-w-2xl">
               Zentor desarrolla continuamente sus capacidades operativas y
               organizativas con el objetivo de participar progresivamente en
               proyectos y licitaciones de mayor relevancia.
@@ -71,15 +71,15 @@ export default function LicitacionesPage() {
       </section>
 
       {/* Pillars */}
-      <section className="py-24 pb-32 bg-[#0F2234]">
+      <section className="py-24 pb-32 bg-white">
         <div className="max-w-7xl mx-auto px-6 lg:px-10">
-          <div className="grid md:grid-cols-2 gap-0 border border-white/[0.06]">
+          <div className="grid md:grid-cols-2 gap-0 border border-[#0F2234]/[0.08]">
             {pilares.map((p, i) => {
               const Icon = p.icon;
               return (
                 <FadeIn key={p.title} delay={i * 0.1}>
                   <div
-                    className={`group relative p-10 lg:p-12 border-white/[0.06] hover:bg-[#13273A] transition-colors duration-400 overflow-hidden
+                    className={`group relative p-10 lg:p-12 border-[#0F2234]/[0.08] hover:bg-[#F0F4F9] transition-colors duration-400 overflow-hidden
                     ${i === 0 ? "border-b border-r" : ""}
                     ${i === 1 ? "border-b" : ""}
                     ${i === 2 ? "border-r" : ""}
@@ -90,14 +90,14 @@ export default function LicitacionesPage() {
                     <div className="w-11 h-11 border border-[#C7AB65]/15 group-hover:border-[#C7AB65]/40 flex items-center justify-center mb-7 transition-colors duration-400">
                       <Icon
                         size={18}
-                        className="text-white/20 group-hover:text-[#C7AB65] transition-colors duration-400"
+                        className="text-[#CBD5E1] group-hover:text-[#C7AB65] transition-colors duration-400"
                         strokeWidth={1.5}
                       />
                     </div>
-                    <h2 className="text-base font-semibold text-white/80 group-hover:text-white mb-4 transition-colors duration-300 leading-snug">
+                    <h2 className="text-base font-semibold text-[#0F2234] group-hover:text-[#0F2234] mb-4 transition-colors duration-300 leading-snug">
                       {p.title}
                     </h2>
-                    <p className="text-sm text-white/35 leading-relaxed font-light">
+                    <p className="text-sm text-[#94A3B8] leading-relaxed font-light">
                       {p.description}
                     </p>
                   </div>

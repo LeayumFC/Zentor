@@ -37,7 +37,7 @@ const servicios = [
 
 export default function ServiciosSection() {
   return (
-    <section className="py-32 bg-[#0F2234]">
+    <section className="py-32 bg-white">
       <div className="max-w-7xl mx-auto px-6 lg:px-10">
         {/* Header */}
         <div className="flex flex-col lg:flex-row lg:items-end justify-between gap-10 mb-20">
@@ -53,11 +53,11 @@ export default function ServiciosSection() {
                 Servicios
               </span>
             </div>
-            <h2 className="text-4xl md:text-[2.75rem] font-light text-white leading-tight tracking-tight">
+            <h2 className="text-4xl md:text-[2.75rem] font-light text-[#0F2234] leading-tight tracking-tight">
               Soluciones de infraestructura{" "}
               <span className="text-[#C7AB65] italic">y ejecución.</span>
             </h2>
-            <p className="text-white/35 font-light mt-5 max-w-lg leading-relaxed">
+            <p className="text-[#94A3B8] font-light mt-5 max-w-lg leading-relaxed">
               Desarrollamos servicios orientados a empresas, instituciones y
               espacios comerciales que requieren ejecución organizada y atención
               profesional.
@@ -73,7 +73,7 @@ export default function ServiciosSection() {
           >
             <Link
               href="/servicios"
-              className="group inline-flex items-center gap-2 text-xs text-white/40 hover:text-[#C7AB65] transition-colors duration-300 tracking-wide uppercase font-medium"
+              className="group inline-flex items-center gap-2 text-xs text-[#64748B] hover:text-[#C7AB65] transition-colors duration-300 tracking-wide uppercase font-medium"
             >
               Ver todos los servicios
               <ArrowRight
@@ -95,26 +95,26 @@ export default function ServiciosSection() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.6, delay: i * 0.08 }}
-                className="group flex items-start gap-6 md:gap-10 py-8 border-b border-white/[0.06] hover:border-[#C7AB65]/15 transition-colors duration-400 cursor-default"
+                className="group flex items-start gap-6 md:gap-10 py-8 border-b border-[#0F2234]/[0.08] hover:border-[#C7AB65]/15 transition-colors duration-400 cursor-default"
               >
                 {/* Number */}
                 <span className="text-xs font-light text-[#C7AB65]/25 group-hover:text-[#C7AB65]/60 transition-colors duration-300 w-6 flex-shrink-0 mt-1.5 tracking-wider">
                   {s.number}
                 </span>
                 {/* Icon */}
-                <div className="w-10 h-10 flex-shrink-0 border border-white/[0.07] group-hover:border-[#C7AB65]/25 flex items-center justify-center transition-colors duration-400">
+                <div className="w-10 h-10 flex-shrink-0 border border-[#0F2234]/[0.09] group-hover:border-[#C7AB65]/25 flex items-center justify-center transition-colors duration-400">
                   <Icon
                     size={17}
-                    className="text-white/25 group-hover:text-[#C7AB65] transition-colors duration-400"
+                    className="text-[#CBD5E1] group-hover:text-[#C7AB65] transition-colors duration-400"
                     strokeWidth={1.5}
                   />
                 </div>
                 {/* Content */}
                 <div className="flex-1 min-w-0">
-                  <h3 className="text-base font-semibold text-white/80 group-hover:text-white mb-2 transition-colors duration-300">
+                  <h3 className="text-base font-semibold text-[#0F2234] group-hover:text-[#0F2234] mb-2 transition-colors duration-300">
                     {s.title}
                   </h3>
-                  <p className="text-sm text-white/35 leading-relaxed font-light max-w-2xl">
+                  <p className="text-sm text-[#94A3B8] leading-relaxed font-light max-w-2xl">
                     {s.description}
                   </p>
                 </div>
