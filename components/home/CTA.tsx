@@ -46,7 +46,7 @@ export default function CTA() {
           >
             Solicitar información
             <ArrowRight
-              size={15}
+              size={18}
               className="group-hover:translate-x-1 transition-transform duration-300"
             />
           </Link>

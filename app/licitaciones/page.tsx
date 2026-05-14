@@ -89,9 +89,9 @@ export default function LicitacionesPage() {
 
                     <div className="w-11 h-11 border border-[#C7AB65]/15 group-hover:border-[#C7AB65]/40 flex items-center justify-center mb-7 transition-colors duration-400">
                       <Icon
-                        size={18}
+                        size={26}
                         className="text-[#CBD5E1] group-hover:text-[#C7AB65] transition-colors duration-400"
-                        strokeWidth={1.5}
+                        strokeWidth={2}
                       />
                     </div>
                     <h2 className="text-base font-semibold text-[#0F2234] group-hover:text-[#0F2234] mb-4 transition-colors duration-300 leading-snug">

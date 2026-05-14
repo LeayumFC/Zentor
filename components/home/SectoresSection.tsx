@@ -65,9 +65,9 @@ export default function SectoresSection() {
               >
                 <div className="mb-4">
                   <Icon
-                    size={26}
+                    size={32}
                     className="text-[#CBD5E1] group-hover:text-[#C7AB65] transition-colors duration-400"
-                    strokeWidth={1.25}
+                    strokeWidth={2}
                   />
                 </div>
                 <span className="text-[11px] text-[#94A3B8] text-center group-hover:text-[#475569] transition-colors duration-400 font-medium tracking-wide leading-snug">

@@ -77,7 +77,7 @@ export default function ServiciosSection() {
             >
               Ver todos los servicios
               <ArrowRight
-                size={13}
+                size={16}
                 className="group-hover:translate-x-1 transition-transform"
               />
             </Link>
@@ -104,9 +104,9 @@ export default function ServiciosSection() {
                 {/* Icon */}
                 <div className="w-10 h-10 flex-shrink-0 border border-[#0F2234]/[0.09] group-hover:border-[#C7AB65]/25 flex items-center justify-center transition-colors duration-400">
                   <Icon
-                    size={17}
+                    size={24}
                     className="text-[#CBD5E1] group-hover:text-[#C7AB65] transition-colors duration-400"
-                    strokeWidth={1.5}
+                    strokeWidth={2}
                   />
                 </div>
                 {/* Content */}
@@ -120,7 +120,7 @@ export default function ServiciosSection() {
                 </div>
                 {/* Arrow */}
                 <div className="flex-shrink-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300 mt-1">
-                  <ArrowRight size={15} className="text-[#C7AB65]" />
+                  <ArrowRight size={18} className="text-[#C7AB65]" />
                 </div>
               </motion.div>
             );

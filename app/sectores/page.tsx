@@ -96,9 +96,9 @@ export default function SectoresPage() {
 
                     <div className="w-12 h-12 border border-[#C7AB65]/15 group-hover:border-[#C7AB65]/40 flex items-center justify-center mb-6 transition-colors duration-400">
                       <Icon
-                        size={20}
+                        size={28}
                         className="text-[#CBD5E1] group-hover:text-[#C7AB65] transition-colors duration-400"
-                        strokeWidth={1.25}
+                        strokeWidth={2}
                       />
                     </div>
                     <h2 className="text-base font-semibold text-[#0F2234] group-hover:text-[#0F2234] mb-3 transition-colors duration-300">

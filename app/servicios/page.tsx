@@ -106,7 +106,7 @@ export default function ServiciosPage() {
                         <Icon
                           size={17}
                           className="text-[#CBD5E1] group-hover:text-[#C7AB65] transition-colors duration-400"
-                          strokeWidth={1.5}
+                          strokeWidth={2}
                         />
                       </div>
                     </div>

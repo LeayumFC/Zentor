@@ -36,14 +36,14 @@ export default function Footer() {
                 aria-label="LinkedIn"
                 className="w-9 h-9 border border-white/[0.08] flex items-center justify-center text-white/30 hover:text-[#C7AB65] hover:border-[#C7AB65]/30 transition-all duration-300"
               >
-                <Linkedin size={14} />
+                <Linkedin size={20} />
               </a>
               <a
                 href="#"
                 aria-label="Instagram"
                 className="w-9 h-9 border border-white/[0.08] flex items-center justify-center text-white/30 hover:text-[#C7AB65] hover:border-[#C7AB65]/30 transition-all duration-300"
               >
-                <Instagram size={14} />
+                <Instagram size={20} />
               </a>
             </div>
           </div>
@@ -75,7 +75,7 @@ export default function Footer() {
             <ul className="space-y-4">
               <li className="flex items-start gap-3">
                 <MapPin
-                  size={13}
+                  size={18}
                   className="text-[#C7AB65]/50 flex-shrink-0 mt-0.5"
                 />
                 <span className="text-sm text-white/35 font-light leading-relaxed">
@@ -84,7 +84,7 @@ export default function Footer() {
               </li>
               <li className="flex items-start gap-3">
                 <Mail
-                  size={13}
+                  size={18}
                   className="text-[#C7AB65]/50 flex-shrink-0 mt-0.5"
                 />
                 <a
@@ -96,7 +96,7 @@ export default function Footer() {
               </li>
               <li className="flex items-start gap-3">
                 <Phone
-                  size={13}
+                  size={18}
                   className="text-[#C7AB65]/50 flex-shrink-0 mt-0.5"
                 />
                 <a

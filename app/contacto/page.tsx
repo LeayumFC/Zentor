@@ -89,9 +89,9 @@ export default function ContactoPage() {
                       <div key={item.label} className="flex items-start gap-4">
                         <div className="w-9 h-9 border border-[#0F2234]/10 flex items-center justify-center flex-shrink-0 mt-0.5">
                           <Icon
-                            size={14}
+                            size={20}
                             className="text-[#C7AB65]/60"
-                            strokeWidth={1.5}
+                            strokeWidth={2}
                           />
                         </div>
                         <div>

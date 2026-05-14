@@ -81,9 +81,9 @@ export default function Diferenciadores() {
                 <div className="mb-8">
                   <div className="w-11 h-11 border border-[#C7AB65]/20 group-hover:border-[#C7AB65]/50 flex items-center justify-center transition-colors duration-400">
                     <Icon
-                      size={18}
+                      size={26}
                       className="text-[#C7AB65]/60 group-hover:text-[#C7AB65] transition-colors duration-400"
-                      strokeWidth={1.5}
+                      strokeWidth={2}
                     />
                   </div>
                 </div>

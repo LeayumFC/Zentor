@@ -152,7 +152,7 @@ export default function ContactForm() {
             <>
               Enviar mensaje
               <Send
-                size={13}
+                size={18}
                 className="group-hover:translate-x-0.5 transition-transform duration-300"
               />
             </>

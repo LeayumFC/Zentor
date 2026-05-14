@@ -73,7 +73,7 @@ export default function Hero() {
             >
               Solicitar cotización
               <ArrowRight
-                size={15}
+                size={18}
                 className="group-hover:translate-x-1 transition-transform duration-300"
               />
             </Link>
@@ -122,7 +122,7 @@ export default function Hero() {
           animate={{ y: [0, 5, 0] }}
           transition={{ repeat: Infinity, duration: 2.2, ease: "easeInOut" }}
         >
-          <ChevronDown size={14} />
+          <ChevronDown size={18} />
         </motion.div>
       </motion.div>
     </section>
