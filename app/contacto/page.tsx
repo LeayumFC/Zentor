@@ -38,20 +38,20 @@ export default function ContactoPage() {
   return (
     <main>
       {/* Hero */}
-      <section className="relative pt-40 pb-20 bg-[#080808] overflow-hidden">
+      <section className="relative pt-40 pb-20 bg-[#0F2234] overflow-hidden">
         <div className="absolute inset-0 subtle-grid opacity-60" />
-        <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-[#C5A55A]/15 to-transparent" />
+        <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-[#C7AB65]/15 to-transparent" />
         <div className="max-w-7xl mx-auto px-6 lg:px-10 relative">
           <FadeIn>
             <div className="flex items-center gap-4 mb-8">
-              <div className="h-px w-12 bg-[#C5A55A]" />
-              <span className="text-[#C5A55A] text-[10px] font-medium tracking-[0.25em] uppercase">
+              <div className="h-px w-12 bg-[#C7AB65]" />
+              <span className="text-[#C7AB65] text-[10px] font-medium tracking-[0.25em] uppercase">
                 Contacto
               </span>
             </div>
             <h1 className="text-5xl md:text-6xl lg:text-[3.75rem] font-light text-white leading-tight tracking-tight mb-8 max-w-2xl">
               Conversemos sobre{" "}
-              <span className="text-[#C5A55A] italic">su proyecto.</span>
+              <span className="text-[#C7AB65] italic">su proyecto.</span>
             </h1>
             <p className="text-lg text-white/40 font-light leading-relaxed max-w-xl">
               Nuestro equipo está disponible para atender consultas relacionadas
@@ -63,7 +63,7 @@ export default function ContactoPage() {
       </section>
 
       {/* Main content */}
-      <section className="py-20 pb-36 bg-[#080808]">
+      <section className="py-20 pb-36 bg-[#0F2234]">
         <div className="max-w-7xl mx-auto px-6 lg:px-10">
           <div className="grid lg:grid-cols-[1fr_380px] gap-16 lg:gap-20 items-start">
             {/* Form */}
@@ -90,7 +90,7 @@ export default function ContactoPage() {
                         <div className="w-9 h-9 border border-white/[0.08] flex items-center justify-center flex-shrink-0 mt-0.5">
                           <Icon
                             size={14}
-                            className="text-[#C5A55A]/60"
+                            className="text-[#C7AB65]/60"
                             strokeWidth={1.5}
                           />
                         </div>
@@ -101,7 +101,7 @@ export default function ContactoPage() {
                           {item.href ? (
                             <a
                               href={item.href}
-                              className="text-sm text-white/50 hover:text-[#C5A55A] transition-colors duration-200 font-light"
+                              className="text-sm text-white/50 hover:text-[#C7AB65] transition-colors duration-200 font-light"
                             >
                               {item.value}
                             </a>
@@ -120,7 +120,7 @@ export default function ContactoPage() {
                 <div className="mt-12 pt-10 border-t border-white/[0.06]">
                   <p className="text-xs text-white/20 font-light leading-relaxed">
                     Parte del grupo{" "}
-                    <span className="text-[#C5A55A]/40">Biagi & Varnoux</span>
+                    <span className="text-[#C7AB65]/40">Biagi & Varnoux</span>
                     <br />
                     La Paz, Bolivia
                   </p>

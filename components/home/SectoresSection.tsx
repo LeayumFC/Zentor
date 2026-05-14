@@ -21,7 +21,7 @@ const sectores = [
 
 export default function SectoresSection() {
   return (
-    <section className="py-32 bg-[#0A0A0A]">
+    <section className="py-32 bg-[#0D1F30]">
       <div className="max-w-7xl mx-auto px-6 lg:px-10">
         {/* Header */}
         <motion.div
@@ -32,15 +32,15 @@ export default function SectoresSection() {
           className="text-center mb-16"
         >
           <div className="flex items-center justify-center gap-4 mb-6">
-            <div className="h-px w-14 bg-[#C5A55A]" />
-            <span className="text-[#C5A55A] text-[10px] font-medium tracking-[0.25em] uppercase">
+            <div className="h-px w-14 bg-[#C7AB65]" />
+            <span className="text-[#C7AB65] text-[10px] font-medium tracking-[0.25em] uppercase">
               Sectores
             </span>
-            <div className="h-px w-14 bg-[#C5A55A]" />
+            <div className="h-px w-14 bg-[#C7AB65]" />
           </div>
           <h2 className="text-4xl md:text-[2.75rem] font-light text-white mb-5 tracking-tight leading-tight">
             Orientados a clientes{" "}
-            <span className="text-[#C5A55A] italic">
+            <span className="text-[#C7AB65] italic">
               corporativos e institucionales.
             </span>
           </h2>
@@ -61,12 +61,12 @@ export default function SectoresSection() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.5, delay: i * 0.07 }}
-                className="group flex flex-col items-center justify-center py-12 px-4 border-r border-b border-white/[0.05] hover:bg-[#111111] transition-all duration-400 cursor-default"
+                className="group flex flex-col items-center justify-center py-12 px-4 border-r border-b border-white/[0.05] hover:bg-[#162C3E] transition-all duration-400 cursor-default"
               >
                 <div className="mb-4">
                   <Icon
                     size={26}
-                    className="text-white/20 group-hover:text-[#C5A55A] transition-colors duration-400"
+                    className="text-white/20 group-hover:text-[#C7AB65] transition-colors duration-400"
                     strokeWidth={1.25}
                   />
                 </div>

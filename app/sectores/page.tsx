@@ -59,20 +59,20 @@ export default function SectoresPage() {
   return (
     <main>
       {/* Hero */}
-      <section className="relative pt-40 pb-28 bg-[#080808] overflow-hidden">
+      <section className="relative pt-40 pb-28 bg-[#0F2234] overflow-hidden">
         <div className="absolute inset-0 subtle-grid opacity-60" />
-        <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-[#C5A55A]/15 to-transparent" />
+        <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-[#C7AB65]/15 to-transparent" />
         <div className="max-w-7xl mx-auto px-6 lg:px-10 relative">
           <FadeIn>
             <div className="flex items-center gap-4 mb-8">
-              <div className="h-px w-12 bg-[#C5A55A]" />
-              <span className="text-[#C5A55A] text-[10px] font-medium tracking-[0.25em] uppercase">
+              <div className="h-px w-12 bg-[#C7AB65]" />
+              <span className="text-[#C7AB65] text-[10px] font-medium tracking-[0.25em] uppercase">
                 Sectores
               </span>
             </div>
             <h1 className="text-5xl md:text-6xl lg:text-[3.75rem] font-light text-white leading-tight tracking-tight mb-8 max-w-3xl">
               Sectores con los{" "}
-              <span className="text-[#C5A55A] italic">que trabajamos.</span>
+              <span className="text-[#C7AB65] italic">que trabajamos.</span>
             </h1>
             <p className="text-lg text-white/40 font-light leading-relaxed max-w-2xl">
               Zentor orienta sus servicios a organizaciones que priorizan
@@ -83,21 +83,21 @@ export default function SectoresPage() {
       </section>
 
       {/* Sectors grid */}
-      <section className="py-20 pb-32 bg-[#080808]">
+      <section className="py-20 pb-32 bg-[#0F2234]">
         <div className="max-w-7xl mx-auto px-6 lg:px-10">
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-0 border border-white/[0.06]">
             {sectores.map((sector, i) => {
               const Icon = sector.icon;
               return (
                 <FadeIn key={sector.title} delay={i * 0.08}>
-                  <div className="group relative p-10 border-r border-b border-white/[0.06] hover:bg-[#0f0f0f] transition-colors duration-400 cursor-default overflow-hidden">
+                  <div className="group relative p-10 border-r border-b border-white/[0.06] hover:bg-[#13273A] transition-colors duration-400 cursor-default overflow-hidden">
                     {/* Gold top line on hover */}
-                    <div className="absolute top-0 left-0 right-0 h-[2px] bg-gradient-to-r from-[#C5A55A]/0 via-[#C5A55A] to-[#C5A55A]/0 scale-x-0 group-hover:scale-x-100 transition-transform duration-500 origin-left" />
+                    <div className="absolute top-0 left-0 right-0 h-[2px] bg-gradient-to-r from-[#C7AB65]/0 via-[#C7AB65] to-[#C7AB65]/0 scale-x-0 group-hover:scale-x-100 transition-transform duration-500 origin-left" />
 
-                    <div className="w-12 h-12 border border-[#C5A55A]/15 group-hover:border-[#C5A55A]/40 flex items-center justify-center mb-6 transition-colors duration-400">
+                    <div className="w-12 h-12 border border-[#C7AB65]/15 group-hover:border-[#C7AB65]/40 flex items-center justify-center mb-6 transition-colors duration-400">
                       <Icon
                         size={20}
-                        className="text-white/20 group-hover:text-[#C5A55A] transition-colors duration-400"
+                        className="text-white/20 group-hover:text-[#C7AB65] transition-colors duration-400"
                         strokeWidth={1.25}
                       />
                     </div>

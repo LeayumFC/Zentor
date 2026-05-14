@@ -6,16 +6,16 @@ import { ArrowRight, ChevronDown } from "lucide-react";
 
 export default function Hero() {
   return (
-    <section className="relative min-h-screen flex flex-col justify-center overflow-hidden bg-[#080808]">
+    <section className="relative min-h-screen flex flex-col justify-center overflow-hidden bg-[#0F2234]">
       {/* Background layers */}
       <div className="absolute inset-0 pointer-events-none">
         <div className="absolute inset-0 subtle-grid" />
-        <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-[#C5A55A]/20 to-transparent" />
-        <div className="absolute top-1/4 -left-20 w-[500px] h-[500px] bg-[#C5A55A]/[0.03] rounded-full blur-3xl" />
-        <div className="absolute bottom-1/4 -right-20 w-[400px] h-[400px] bg-[#C5A55A]/[0.025] rounded-full blur-3xl" />
+        <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-[#C7AB65]/20 to-transparent" />
+        <div className="absolute top-1/4 -left-20 w-[500px] h-[500px] bg-[#C7AB65]/[0.03] rounded-full blur-3xl" />
+        <div className="absolute bottom-1/4 -right-20 w-[400px] h-[400px] bg-[#C7AB65]/[0.025] rounded-full blur-3xl" />
         {/* Corner accents */}
-        <div className="absolute top-24 right-16 w-32 h-32 border border-[#C5A55A]/[0.07] hidden lg:block" />
-        <div className="absolute top-28 right-20 w-20 h-20 border border-[#C5A55A]/[0.05] hidden lg:block" />
+        <div className="absolute top-24 right-16 w-32 h-32 border border-[#C7AB65]/[0.07] hidden lg:block" />
+        <div className="absolute top-28 right-20 w-20 h-20 border border-[#C7AB65]/[0.05] hidden lg:block" />
       </div>
 
       {/* Main content */}
@@ -28,8 +28,8 @@ export default function Hero() {
             transition={{ duration: 0.7, delay: 0.1 }}
             className="flex items-center gap-4 mb-12"
           >
-            <div className="h-px w-14 bg-[#C5A55A]" />
-            <span className="text-[#C5A55A] text-xs font-medium tracking-[0.25em] uppercase">
+            <div className="h-px w-14 bg-[#C7AB65]" />
+            <span className="text-[#C7AB65] text-xs font-medium tracking-[0.25em] uppercase">
               Infraestructura Corporativa
             </span>
           </motion.div>
@@ -44,7 +44,7 @@ export default function Hero() {
             Infraestructura corporativa{" "}
             <br className="hidden md:block" />
             con{" "}
-            <span className="text-[#C5A55A] font-normal italic">ejecución</span>{" "}
+            <span className="text-[#C7AB65] font-normal italic">ejecución</span>{" "}
             profesional.
           </motion.h1>
 
@@ -69,7 +69,7 @@ export default function Hero() {
           >
             <Link
               href="/contacto"
-              className="group inline-flex items-center justify-center gap-3 px-8 py-4 bg-[#C5A55A] text-black text-xs font-bold tracking-[0.12em] uppercase hover:bg-[#D4BC8A] transition-all duration-300"
+              className="group inline-flex items-center justify-center gap-3 px-8 py-4 bg-[#C7AB65] text-black text-xs font-bold tracking-[0.12em] uppercase hover:bg-[#D8C082] transition-all duration-300"
             >
               Solicitar cotización
               <ArrowRight
@@ -98,7 +98,7 @@ export default function Hero() {
               { value: "100%", label: "Proyectos con póliza" },
             ].map((s) => (
               <div key={s.label}>
-                <div className="text-2xl md:text-3xl font-light text-[#C5A55A] mb-1.5 tracking-tight">
+                <div className="text-2xl md:text-3xl font-light text-[#C7AB65] mb-1.5 tracking-tight">
                   {s.value}
                 </div>
                 <div className="text-[10px] text-white/30 uppercase tracking-[0.18em] leading-relaxed">

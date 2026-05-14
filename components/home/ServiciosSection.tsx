@@ -37,7 +37,7 @@ const servicios = [
 
 export default function ServiciosSection() {
   return (
-    <section className="py-32 bg-[#080808]">
+    <section className="py-32 bg-[#0F2234]">
       <div className="max-w-7xl mx-auto px-6 lg:px-10">
         {/* Header */}
         <div className="flex flex-col lg:flex-row lg:items-end justify-between gap-10 mb-20">
@@ -48,14 +48,14 @@ export default function ServiciosSection() {
             transition={{ duration: 0.7 }}
           >
             <div className="flex items-center gap-4 mb-6">
-              <div className="h-px w-12 bg-[#C5A55A]" />
-              <span className="text-[#C5A55A] text-[10px] font-medium tracking-[0.25em] uppercase">
+              <div className="h-px w-12 bg-[#C7AB65]" />
+              <span className="text-[#C7AB65] text-[10px] font-medium tracking-[0.25em] uppercase">
                 Servicios
               </span>
             </div>
             <h2 className="text-4xl md:text-[2.75rem] font-light text-white leading-tight tracking-tight">
               Soluciones de infraestructura{" "}
-              <span className="text-[#C5A55A] italic">y ejecución.</span>
+              <span className="text-[#C7AB65] italic">y ejecución.</span>
             </h2>
             <p className="text-white/35 font-light mt-5 max-w-lg leading-relaxed">
               Desarrollamos servicios orientados a empresas, instituciones y
@@ -73,7 +73,7 @@ export default function ServiciosSection() {
           >
             <Link
               href="/servicios"
-              className="group inline-flex items-center gap-2 text-xs text-white/40 hover:text-[#C5A55A] transition-colors duration-300 tracking-wide uppercase font-medium"
+              className="group inline-flex items-center gap-2 text-xs text-white/40 hover:text-[#C7AB65] transition-colors duration-300 tracking-wide uppercase font-medium"
             >
               Ver todos los servicios
               <ArrowRight
@@ -95,17 +95,17 @@ export default function ServiciosSection() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.6, delay: i * 0.08 }}
-                className="group flex items-start gap-6 md:gap-10 py-8 border-b border-white/[0.06] hover:border-[#C5A55A]/15 transition-colors duration-400 cursor-default"
+                className="group flex items-start gap-6 md:gap-10 py-8 border-b border-white/[0.06] hover:border-[#C7AB65]/15 transition-colors duration-400 cursor-default"
               >
                 {/* Number */}
-                <span className="text-xs font-light text-[#C5A55A]/25 group-hover:text-[#C5A55A]/60 transition-colors duration-300 w-6 flex-shrink-0 mt-1.5 tracking-wider">
+                <span className="text-xs font-light text-[#C7AB65]/25 group-hover:text-[#C7AB65]/60 transition-colors duration-300 w-6 flex-shrink-0 mt-1.5 tracking-wider">
                   {s.number}
                 </span>
                 {/* Icon */}
-                <div className="w-10 h-10 flex-shrink-0 border border-white/[0.07] group-hover:border-[#C5A55A]/25 flex items-center justify-center transition-colors duration-400">
+                <div className="w-10 h-10 flex-shrink-0 border border-white/[0.07] group-hover:border-[#C7AB65]/25 flex items-center justify-center transition-colors duration-400">
                   <Icon
                     size={17}
-                    className="text-white/25 group-hover:text-[#C5A55A] transition-colors duration-400"
+                    className="text-white/25 group-hover:text-[#C7AB65] transition-colors duration-400"
                     strokeWidth={1.5}
                   />
                 </div>
@@ -120,7 +120,7 @@ export default function ServiciosSection() {
                 </div>
                 {/* Arrow */}
                 <div className="flex-shrink-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300 mt-1">
-                  <ArrowRight size={15} className="text-[#C5A55A]" />
+                  <ArrowRight size={15} className="text-[#C7AB65]" />
                 </div>
               </motion.div>
             );

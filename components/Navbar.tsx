@@ -34,7 +34,7 @@ export default function Navbar() {
     <header
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
         scrolled
-          ? "bg-[#080808]/90 backdrop-blur-2xl border-b border-white/[0.06] shadow-[0_1px_40px_rgba(0,0,0,0.6)]"
+          ? "bg-[#0F2234]/90 backdrop-blur-2xl border-b border-white/[0.06] shadow-[0_1px_40px_rgba(0,0,0,0.6)]"
           : "bg-transparent"
       }`}
     >
@@ -44,7 +44,7 @@ export default function Navbar() {
           <span className="text-lg font-semibold tracking-[0.2em] text-white uppercase">
             ZENTOR
           </span>
-          <span className="w-1.5 h-1.5 rounded-full bg-[#C5A55A] group-hover:scale-125 transition-transform duration-300" />
+          <span className="w-1.5 h-1.5 rounded-full bg-[#C7AB65] group-hover:scale-125 transition-transform duration-300" />
         </Link>
 
         {/* Desktop Links */}
@@ -55,13 +55,13 @@ export default function Navbar() {
               href={link.href}
               className={`relative text-sm font-medium tracking-wide transition-colors duration-200 group ${
                 pathname === link.href
-                  ? "text-[#C5A55A]"
+                  ? "text-[#C7AB65]"
                   : "text-white/60 hover:text-white"
               }`}
             >
               {link.label}
               <span
-                className={`absolute -bottom-0.5 left-0 h-px bg-[#C5A55A] transition-all duration-300 ${
+                className={`absolute -bottom-0.5 left-0 h-px bg-[#C7AB65] transition-all duration-300 ${
                   pathname === link.href
                     ? "w-full"
                     : "w-0 group-hover:w-full"
@@ -75,7 +75,7 @@ export default function Navbar() {
         <div className="hidden lg:block">
           <Link
             href="/contacto"
-            className="px-5 py-2.5 text-xs font-semibold tracking-[0.12em] uppercase border border-[#C5A55A] text-[#C5A55A] hover:bg-[#C5A55A] hover:text-black transition-all duration-300"
+            className="px-5 py-2.5 text-xs font-semibold tracking-[0.12em] uppercase border border-[#C7AB65] text-[#C7AB65] hover:bg-[#C7AB65] hover:text-black transition-all duration-300"
           >
             Solicitar información
           </Link>
@@ -100,7 +100,7 @@ export default function Navbar() {
             animate={{ opacity: 1, height: "auto" }}
             exit={{ opacity: 0, height: 0 }}
             transition={{ duration: 0.3, ease: "easeInOut" }}
-            className="lg:hidden overflow-hidden bg-[#080808]/98 backdrop-blur-2xl border-b border-white/[0.06]"
+            className="lg:hidden overflow-hidden bg-[#0F2234]/98 backdrop-blur-2xl border-b border-white/[0.06]"
           >
             <div className="max-w-7xl mx-auto px-6 py-6 flex flex-col gap-1">
               {navLinks.map((link) => (
@@ -109,7 +109,7 @@ export default function Navbar() {
                   href={link.href}
                   className={`py-3.5 text-sm font-medium border-b border-white/[0.05] transition-colors ${
                     pathname === link.href
-                      ? "text-[#C5A55A]"
+                      ? "text-[#C7AB65]"
                       : "text-white/60 hover:text-white"
                   }`}
                 >
@@ -118,7 +118,7 @@ export default function Navbar() {
               ))}
               <Link
                 href="/contacto"
-                className="mt-4 px-5 py-3.5 text-xs font-semibold tracking-[0.12em] uppercase border border-[#C5A55A] text-[#C5A55A] text-center hover:bg-[#C5A55A] hover:text-black transition-all duration-300"
+                className="mt-4 px-5 py-3.5 text-xs font-semibold tracking-[0.12em] uppercase border border-[#C7AB65] text-[#C7AB65] text-center hover:bg-[#C7AB65] hover:text-black transition-all duration-300"
               >
                 Solicitar información
               </Link>

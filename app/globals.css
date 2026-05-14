@@ -3,8 +3,8 @@
 @tailwind utilities;
 
 :root {
-  --color-bg: #080808;
-  --color-gold: #C5A55A;
+  --color-bg: #0F2234;
+  --color-gold: #C7AB65;
   --font-inter: 'Inter', sans-serif;
 }
 
@@ -19,7 +19,7 @@ html {
 }
 
 body {
-  background-color: #080808;
+  background-color: #0F2234;
   color: #f5f5f5;
   font-family: var(--font-inter);
   -webkit-font-smoothing: antialiased;
@@ -30,19 +30,19 @@ body {
   width: 4px;
 }
 ::-webkit-scrollbar-track {
-  background: #080808;
+  background: #0F2234;
 }
 ::-webkit-scrollbar-thumb {
   background: #2a2a2a;
   border-radius: 2px;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: #C5A55A;
+  background: #C7AB65;
 }
 
 ::selection {
-  background-color: rgba(197, 165, 90, 0.2);
-  color: #C5A55A;
+  background-color: rgba(199, 171, 101, 0.2);
+  color: #C7AB65;
 }
 
 @layer utilities {

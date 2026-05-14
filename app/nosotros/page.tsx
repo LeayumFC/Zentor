@@ -35,20 +35,20 @@ export default function NosotrosPage() {
   return (
     <main>
       {/* Hero */}
-      <section className="relative pt-40 pb-28 bg-[#080808] overflow-hidden">
+      <section className="relative pt-40 pb-28 bg-[#0F2234] overflow-hidden">
         <div className="absolute inset-0 subtle-grid opacity-60" />
-        <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-[#C5A55A]/15 to-transparent" />
+        <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-[#C7AB65]/15 to-transparent" />
         <div className="max-w-7xl mx-auto px-6 lg:px-10 relative">
           <FadeIn>
             <div className="flex items-center gap-4 mb-8">
-              <div className="h-px w-12 bg-[#C5A55A]" />
-              <span className="text-[#C5A55A] text-[10px] font-medium tracking-[0.25em] uppercase">
+              <div className="h-px w-12 bg-[#C7AB65]" />
+              <span className="text-[#C7AB65] text-[10px] font-medium tracking-[0.25em] uppercase">
                 Nosotros
               </span>
             </div>
             <h1 className="text-5xl md:text-6xl lg:text-[3.75rem] font-light text-white leading-tight tracking-tight mb-8 max-w-3xl">
               Construcción e infraestructura con{" "}
-              <span className="text-[#C5A55A] italic">visión corporativa.</span>
+              <span className="text-[#C7AB65] italic">visión corporativa.</span>
             </h1>
             <p className="text-lg text-white/40 font-light leading-relaxed max-w-2xl">
               Zentor nace con el objetivo de desarrollar proyectos de
@@ -60,15 +60,15 @@ export default function NosotrosPage() {
       </section>
 
       {/* Sections */}
-      <section className="py-28 bg-[#080808]">
+      <section className="py-28 bg-[#0F2234]">
         <div className="max-w-7xl mx-auto px-6 lg:px-10">
           <div className="grid lg:grid-cols-2 gap-16 lg:gap-24">
             {sections.map((s, i) => (
               <FadeIn key={s.label} delay={i * 0.1}>
                 <div className="border-t border-white/[0.07] pt-8">
                   <div className="flex items-center gap-4 mb-5">
-                    <div className="h-px w-8 bg-[#C5A55A]/60" />
-                    <h2 className="text-xs font-semibold text-[#C5A55A] tracking-[0.2em] uppercase">
+                    <div className="h-px w-8 bg-[#C7AB65]/60" />
+                    <h2 className="text-xs font-semibold text-[#C7AB65] tracking-[0.2em] uppercase">
                       {s.label}
                     </h2>
                   </div>
@@ -83,7 +83,7 @@ export default function NosotrosPage() {
       </section>
 
       {/* Values strip */}
-      <section className="py-20 bg-[#0B0B0B] border-y border-white/[0.05]">
+      <section className="py-20 bg-[#0E2132] border-y border-white/[0.05]">
         <div className="max-w-7xl mx-auto px-6 lg:px-10">
           <FadeIn className="grid grid-cols-1 md:grid-cols-3 gap-0">
             {[

@@ -40,26 +40,26 @@ export default function LicitacionesPage() {
   return (
     <main>
       {/* Hero */}
-      <section className="relative pt-40 pb-28 bg-[#080808] overflow-hidden">
+      <section className="relative pt-40 pb-28 bg-[#0F2234] overflow-hidden">
         <div className="absolute inset-0 subtle-grid opacity-60" />
-        <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-[#C5A55A]/15 to-transparent" />
+        <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-[#C7AB65]/15 to-transparent" />
         {/* Decorative element */}
         <div className="absolute right-0 top-0 bottom-0 w-1/3 pointer-events-none hidden lg:block">
-          <div className="absolute top-1/2 right-20 -translate-y-1/2 w-64 h-64 border border-[#C5A55A]/[0.06]" />
-          <div className="absolute top-1/2 right-28 -translate-y-1/2 w-48 h-48 border border-[#C5A55A]/[0.04]" />
+          <div className="absolute top-1/2 right-20 -translate-y-1/2 w-64 h-64 border border-[#C7AB65]/[0.06]" />
+          <div className="absolute top-1/2 right-28 -translate-y-1/2 w-48 h-48 border border-[#C7AB65]/[0.04]" />
         </div>
 
         <div className="max-w-7xl mx-auto px-6 lg:px-10 relative">
           <FadeIn>
             <div className="flex items-center gap-4 mb-8">
-              <div className="h-px w-12 bg-[#C5A55A]" />
-              <span className="text-[#C5A55A] text-[10px] font-medium tracking-[0.25em] uppercase">
+              <div className="h-px w-12 bg-[#C7AB65]" />
+              <span className="text-[#C7AB65] text-[10px] font-medium tracking-[0.25em] uppercase">
                 Licitaciones
               </span>
             </div>
             <h1 className="text-5xl md:text-6xl lg:text-[3.75rem] font-light text-white leading-tight tracking-tight mb-8 max-w-3xl">
               Preparados para proyectos{" "}
-              <span className="text-[#C5A55A] italic">de mayor escala.</span>
+              <span className="text-[#C7AB65] italic">de mayor escala.</span>
             </h1>
             <p className="text-lg text-white/40 font-light leading-relaxed max-w-2xl">
               Zentor desarrolla continuamente sus capacidades operativas y
@@ -71,7 +71,7 @@ export default function LicitacionesPage() {
       </section>
 
       {/* Pillars */}
-      <section className="py-24 pb-32 bg-[#080808]">
+      <section className="py-24 pb-32 bg-[#0F2234]">
         <div className="max-w-7xl mx-auto px-6 lg:px-10">
           <div className="grid md:grid-cols-2 gap-0 border border-white/[0.06]">
             {pilares.map((p, i) => {
@@ -79,18 +79,18 @@ export default function LicitacionesPage() {
               return (
                 <FadeIn key={p.title} delay={i * 0.1}>
                   <div
-                    className={`group relative p-10 lg:p-12 border-white/[0.06] hover:bg-[#0f0f0f] transition-colors duration-400 overflow-hidden
+                    className={`group relative p-10 lg:p-12 border-white/[0.06] hover:bg-[#13273A] transition-colors duration-400 overflow-hidden
                     ${i === 0 ? "border-b border-r" : ""}
                     ${i === 1 ? "border-b" : ""}
                     ${i === 2 ? "border-r" : ""}
                   `}
                   >
-                    <div className="absolute top-0 left-0 right-0 h-[2px] bg-gradient-to-r from-[#C5A55A]/0 via-[#C5A55A] to-[#C5A55A]/0 scale-x-0 group-hover:scale-x-100 transition-transform duration-500 origin-left" />
+                    <div className="absolute top-0 left-0 right-0 h-[2px] bg-gradient-to-r from-[#C7AB65]/0 via-[#C7AB65] to-[#C7AB65]/0 scale-x-0 group-hover:scale-x-100 transition-transform duration-500 origin-left" />
 
-                    <div className="w-11 h-11 border border-[#C5A55A]/15 group-hover:border-[#C5A55A]/40 flex items-center justify-center mb-7 transition-colors duration-400">
+                    <div className="w-11 h-11 border border-[#C7AB65]/15 group-hover:border-[#C7AB65]/40 flex items-center justify-center mb-7 transition-colors duration-400">
                       <Icon
                         size={18}
-                        className="text-white/20 group-hover:text-[#C5A55A] transition-colors duration-400"
+                        className="text-white/20 group-hover:text-[#C7AB65] transition-colors duration-400"
                         strokeWidth={1.5}
                       />
                     </div>

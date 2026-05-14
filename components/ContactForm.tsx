@@ -45,8 +45,8 @@ export default function ContactForm() {
   if (submitted) {
     return (
       <div className="flex flex-col items-center justify-center py-24 text-center">
-        <div className="w-16 h-16 border border-[#C5A55A]/40 flex items-center justify-center mb-6">
-          <Check size={24} className="text-[#C5A55A]" />
+        <div className="w-16 h-16 border border-[#C7AB65]/40 flex items-center justify-center mb-6">
+          <Check size={24} className="text-[#C7AB65]" />
         </div>
         <h3 className="text-xl font-light text-white mb-3">Mensaje enviado</h3>
         <p className="text-white/40 font-light max-w-sm leading-relaxed">
@@ -58,7 +58,7 @@ export default function ContactForm() {
   }
 
   const inputClass =
-    "w-full bg-transparent border border-white/[0.1] px-4 py-3.5 text-sm text-white/80 placeholder:text-white/20 focus:outline-none focus:border-[#C5A55A]/50 transition-colors duration-300 font-light";
+    "w-full bg-transparent border border-white/[0.1] px-4 py-3.5 text-sm text-white/80 placeholder:text-white/20 focus:outline-none focus:border-[#C7AB65]/50 transition-colors duration-300 font-light";
 
   return (
     <div className="space-y-4">
@@ -117,11 +117,11 @@ export default function ContactForm() {
             onChange={handleChange}
             className={`${inputClass} appearance-none cursor-pointer`}
           >
-            <option value="" className="bg-[#111111] text-white/40">
+            <option value="" className="bg-[#162C3E] text-white/40">
               Tipo de proyecto
             </option>
             {tiposProyecto.map((t) => (
-              <option key={t} value={t} className="bg-[#111111] text-white">
+              <option key={t} value={t} className="bg-[#162C3E] text-white">
                 {t}
               </option>
             ))}
@@ -144,7 +144,7 @@ export default function ContactForm() {
         <button
           onClick={handleSubmit}
           disabled={loading || !form.nombre || !form.email || !form.mensaje}
-          className="group inline-flex items-center gap-3 px-8 py-4 bg-[#C5A55A] text-black text-xs font-bold tracking-[0.12em] uppercase hover:bg-[#D4BC8A] disabled:opacity-40 disabled:cursor-not-allowed transition-all duration-300"
+          className="group inline-flex items-center gap-3 px-8 py-4 bg-[#C7AB65] text-black text-xs font-bold tracking-[0.12em] uppercase hover:bg-[#D8C082] disabled:opacity-40 disabled:cursor-not-allowed transition-all duration-300"
         >
           {loading ? (
             "Enviando..."
