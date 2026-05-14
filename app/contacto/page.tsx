@@ -49,11 +49,11 @@ export default function ContactoPage() {
                 Contacto
               </span>
             </div>
-            <h1 className="text-5xl md:text-6xl lg:text-[3.75rem] font-light text-[#0F2234] leading-tight tracking-tight mb-8 max-w-2xl">
+            <h1 className="text-5xl md:text-6xl lg:text-[3.75rem] font-normal text-[#0F2234] leading-tight tracking-tight mb-8 max-w-2xl">
               Conversemos sobre{" "}
               <span className="text-[#C7AB65] italic">su proyecto.</span>
             </h1>
-            <p className="text-lg text-[#64748B] font-light leading-relaxed max-w-xl">
+            <p className="text-lg text-[#334155] font-normal leading-relaxed max-w-xl">
               Nuestro equipo está disponible para atender consultas relacionadas
               a infraestructura, remodelación, mantenimiento y ejecución de
               proyectos.
@@ -69,7 +69,7 @@ export default function ContactoPage() {
             {/* Form */}
             <FadeIn>
               <div className="border-t border-[#0F2234]/[0.09] pt-10">
-                <h2 className="text-lg font-light text-[#475569] mb-8 tracking-wide">
+                <h2 className="text-lg font-normal text-[#334155] mb-8 tracking-wide">
                   Formulario de contacto
                 </h2>
                 <ContactForm />
@@ -79,7 +79,7 @@ export default function ContactoPage() {
             {/* Contact info */}
             <FadeIn delay={0.15} direction="left">
               <div className="border-t border-[#0F2234]/[0.09] pt-10">
-                <h2 className="text-lg font-light text-[#475569] mb-8 tracking-wide">
+                <h2 className="text-lg font-normal text-[#334155] mb-8 tracking-wide">
                   Información de contacto
                 </h2>
                 <div className="space-y-7">
@@ -95,18 +95,18 @@ export default function ContactoPage() {
                           />
                         </div>
                         <div>
-                          <div className="text-[10px] text-[#CBD5E1] uppercase tracking-[0.2em] mb-1 font-medium">
+                          <div className="text-[10px] text-[#334155] uppercase tracking-[0.2em] mb-1 font-medium">
                             {item.label}
                           </div>
                           {item.href ? (
                             <a
                               href={item.href}
-                              className="text-sm text-[#475569] hover:text-[#C7AB65] transition-colors duration-200 font-light"
+                              className="text-sm text-[#334155] hover:text-[#C7AB65] transition-colors duration-200 font-normal"
                             >
                               {item.value}
                             </a>
                           ) : (
-                            <span className="text-sm text-[#475569] font-light">
+                            <span className="text-sm text-[#334155] font-normal">
                               {item.value}
                             </span>
                           )}
@@ -118,7 +118,7 @@ export default function ContactoPage() {
 
                 {/* Divider */}
                 <div className="mt-12 pt-10 border-t border-[#0F2234]/[0.08]">
-                  <p className="text-xs text-[#CBD5E1] font-light leading-relaxed">
+                  <p className="text-xs text-[#334155] font-normal leading-relaxed">
                     Parte del grupo{" "}
                     <span className="text-[#C7AB65]/40">Biagi & Varnoux</span>
                     <br />

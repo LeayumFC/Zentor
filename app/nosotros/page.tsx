@@ -46,11 +46,11 @@ export default function NosotrosPage() {
                 Nosotros
               </span>
             </div>
-            <h1 className="text-5xl md:text-6xl lg:text-[3.75rem] font-light text-[#0F2234] leading-tight tracking-tight mb-8 max-w-3xl">
+            <h1 className="text-5xl md:text-6xl lg:text-[3.75rem] font-normal text-[#0F2234] leading-tight tracking-tight mb-8 max-w-3xl">
               Construcción e infraestructura con{" "}
               <span className="text-[#C7AB65] italic">visión corporativa.</span>
             </h1>
-            <p className="text-lg text-[#64748B] font-light leading-relaxed max-w-2xl">
+            <p className="text-lg text-[#334155] font-normal leading-relaxed max-w-2xl">
               Zentor nace con el objetivo de desarrollar proyectos de
               infraestructura mediante un enfoque basado en organización,
               profesionalismo y capacidad operativa.
@@ -72,7 +72,7 @@ export default function NosotrosPage() {
                       {s.label}
                     </h2>
                   </div>
-                  <p className="text-[#64748B] font-light leading-relaxed">
+                  <p className="text-[#334155] font-normal leading-relaxed">
                     {s.content}
                   </p>
                 </div>
@@ -97,8 +97,8 @@ export default function NosotrosPage() {
                   i !== 2 ? "border-b md:border-b-0 md:border-r border-[#0F2234]/[0.08]" : ""
                 }`}
               >
-                <div className="text-xl font-light text-[#0F2234] mb-2">{v.title}</div>
-                <div className="text-sm text-[#94A3B8] font-light">{v.sub}</div>
+                <div className="text-xl font-normal text-[#0F2234] mb-2">{v.title}</div>
+                <div className="text-sm text-[#334155] font-normal">{v.sub}</div>
               </div>
             ))}
           </FadeIn>

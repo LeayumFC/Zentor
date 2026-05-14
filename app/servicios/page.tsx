@@ -73,13 +73,13 @@ export default function ServiciosPage() {
                 Servicios
               </span>
             </div>
-            <h1 className="text-5xl md:text-6xl lg:text-[3.75rem] font-light text-[#0F2234] leading-tight tracking-tight mb-8 max-w-3xl">
+            <h1 className="text-5xl md:text-6xl lg:text-[3.75rem] font-normal text-[#0F2234] leading-tight tracking-tight mb-8 max-w-3xl">
               Servicios orientados a{" "}
               <span className="text-[#C7AB65] italic">
                 infraestructura corporativa.
               </span>
             </h1>
-            <p className="text-lg text-[#64748B] font-light leading-relaxed max-w-2xl">
+            <p className="text-lg text-[#334155] font-normal leading-relaxed max-w-2xl">
               Desarrollamos soluciones adaptadas a empresas, instituciones y
               espacios comerciales que requieren ejecución organizada y atención
               profesional.
@@ -99,13 +99,13 @@ export default function ServiciosPage() {
                   <div className="group grid lg:grid-cols-[80px_1fr_auto] gap-6 lg:gap-12 py-14 border-b border-[#0F2234]/[0.08] hover:border-[#C7AB65]/15 transition-colors duration-400">
                     {/* Number + icon */}
                     <div className="flex lg:flex-col items-center lg:items-start gap-4 lg:gap-4">
-                      <span className="text-xs font-light text-[#C7AB65]/30 tracking-wider w-6">
+                      <span className="text-xs font-normal text-[#C7AB65]/30 tracking-wider w-6">
                         {s.number}
                       </span>
                       <div className="w-10 h-10 border border-[#0F2234]/[0.09] group-hover:border-[#C7AB65]/25 flex items-center justify-center transition-colors duration-400">
                         <Icon
                           size={17}
-                          className="text-[#CBD5E1] group-hover:text-[#C7AB65] transition-colors duration-400"
+                          className="text-[#334155] group-hover:text-[#C7AB65] transition-colors duration-400"
                           strokeWidth={2}
                         />
                       </div>
@@ -116,14 +116,14 @@ export default function ServiciosPage() {
                       <h2 className="text-xl font-semibold text-[#0F2234] group-hover:text-[#0F2234] mb-4 transition-colors duration-300">
                         {s.title}
                       </h2>
-                      <p className="text-[#64748B] font-light leading-relaxed max-w-2xl mb-6">
+                      <p className="text-[#334155] font-normal leading-relaxed max-w-2xl mb-6">
                         {s.description}
                       </p>
                       <div className="flex flex-wrap gap-2">
                         {s.tags.map((tag) => (
                           <span
                             key={tag}
-                            className="text-[10px] text-[#94A3B8] border border-[#0F2234]/10 px-3 py-1 tracking-wide uppercase font-medium"
+                            className="text-[10px] text-[#334155] border border-[#0F2234]/10 px-3 py-1 tracking-wide uppercase font-medium"
                           >
                             {tag}
                           </span>

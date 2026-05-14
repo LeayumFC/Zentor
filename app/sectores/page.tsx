@@ -70,11 +70,11 @@ export default function SectoresPage() {
                 Sectores
               </span>
             </div>
-            <h1 className="text-5xl md:text-6xl lg:text-[3.75rem] font-light text-[#0F2234] leading-tight tracking-tight mb-8 max-w-3xl">
+            <h1 className="text-5xl md:text-6xl lg:text-[3.75rem] font-normal text-[#0F2234] leading-tight tracking-tight mb-8 max-w-3xl">
               Sectores con los{" "}
               <span className="text-[#C7AB65] italic">que trabajamos.</span>
             </h1>
-            <p className="text-lg text-[#64748B] font-light leading-relaxed max-w-2xl">
+            <p className="text-lg text-[#334155] font-normal leading-relaxed max-w-2xl">
               Zentor orienta sus servicios a organizaciones que priorizan
               formalidad, planificación y ejecución profesional.
             </p>
@@ -97,14 +97,14 @@ export default function SectoresPage() {
                     <div className="w-12 h-12 border border-[#C7AB65]/15 group-hover:border-[#C7AB65]/40 flex items-center justify-center mb-6 transition-colors duration-400">
                       <Icon
                         size={28}
-                        className="text-[#CBD5E1] group-hover:text-[#C7AB65] transition-colors duration-400"
+                        className="text-[#334155] group-hover:text-[#C7AB65] transition-colors duration-400"
                         strokeWidth={2}
                       />
                     </div>
                     <h2 className="text-base font-semibold text-[#0F2234] group-hover:text-[#0F2234] mb-3 transition-colors duration-300">
                       {sector.title}
                     </h2>
-                    <p className="text-sm text-[#94A3B8] leading-relaxed font-light">
+                    <p className="text-sm text-[#334155] leading-relaxed font-normal">
                       {sector.description}
                     </p>
                   </div>

@@ -38,13 +38,13 @@ export default function SectoresSection() {
             </span>
             <div className="h-px w-14 bg-[#C7AB65]" />
           </div>
-          <h2 className="text-4xl md:text-[2.75rem] font-light text-[#0F2234] mb-5 tracking-tight leading-tight">
+          <h2 className="text-4xl md:text-[2.75rem] font-normal text-[#0F2234] mb-5 tracking-tight leading-tight">
             Orientados a clientes{" "}
             <span className="text-[#C7AB65] italic">
               corporativos e institucionales.
             </span>
           </h2>
-          <p className="text-[#94A3B8] font-light max-w-xl mx-auto leading-relaxed">
+          <p className="text-[#334155] font-normal max-w-xl mx-auto leading-relaxed">
             Zentor desarrolla soluciones adaptadas a organizaciones que requieren
             formalidad, capacidad de respuesta y ejecución organizada.
           </p>
@@ -66,11 +66,11 @@ export default function SectoresSection() {
                 <div className="mb-4">
                   <Icon
                     size={32}
-                    className="text-[#CBD5E1] group-hover:text-[#C7AB65] transition-colors duration-400"
+                    className="text-[#334155] group-hover:text-[#C7AB65] transition-colors duration-400"
                     strokeWidth={2}
                   />
                 </div>
-                <span className="text-[11px] text-[#94A3B8] text-center group-hover:text-[#475569] transition-colors duration-400 font-medium tracking-wide leading-snug">
+                <span className="text-[11px] text-[#334155] text-center group-hover:text-[#334155] transition-colors duration-400 font-medium tracking-wide leading-snug">
                   {sector.label}
                 </span>
               </motion.div>

@@ -20,12 +20,12 @@ export default function QuienesSomos() {
                 Quiénes somos
               </span>
             </div>
-            <h2 className="text-4xl md:text-[2.75rem] font-light text-[#0F2234] leading-tight mb-10 tracking-tight">
+            <h2 className="text-4xl md:text-[2.75rem] font-normal text-[#0F2234] leading-tight mb-10 tracking-tight">
               Una empresa orientada a la ejecución{" "}
               <span className="text-[#C7AB65] italic">organizada</span> y
               profesional.
             </h2>
-            <div className="space-y-5 text-[#64748B] font-light leading-relaxed">
+            <div className="space-y-5 text-[#334155] font-normal leading-relaxed">
               <p>
                 Zentor es una empresa enfocada en construcción, remodelación,
                 adecuación e infraestructura corporativa, orientada
@@ -66,11 +66,11 @@ export default function QuienesSomos() {
               <div className="absolute top-12 left-12 right-12 bottom-12 border border-[#0F2234]/[0.06]" />
               {/* Center mark */}
               <div className="absolute inset-0 flex flex-col items-center justify-center gap-4">
-                <div className="text-5xl font-light text-[#0F2234]/[0.06] tracking-[0.3em] uppercase">
+                <div className="text-5xl font-normal text-[#0F2234]/[0.06] tracking-[0.3em] uppercase">
                   ZENTOR
                 </div>
                 <div className="h-px w-16 bg-[#C7AB65]/20" />
-                <div className="text-[10px] text-[#CBD5E1] tracking-[0.35em] uppercase">
+                <div className="text-[10px] text-[#334155] tracking-[0.35em] uppercase">
                   Infraestructura Corporativa
                 </div>
               </div>

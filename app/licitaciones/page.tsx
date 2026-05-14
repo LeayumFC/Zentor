@@ -57,11 +57,11 @@ export default function LicitacionesPage() {
                 Licitaciones
               </span>
             </div>
-            <h1 className="text-5xl md:text-6xl lg:text-[3.75rem] font-light text-[#0F2234] leading-tight tracking-tight mb-8 max-w-3xl">
+            <h1 className="text-5xl md:text-6xl lg:text-[3.75rem] font-normal text-[#0F2234] leading-tight tracking-tight mb-8 max-w-3xl">
               Preparados para proyectos{" "}
               <span className="text-[#C7AB65] italic">de mayor escala.</span>
             </h1>
-            <p className="text-lg text-[#64748B] font-light leading-relaxed max-w-2xl">
+            <p className="text-lg text-[#334155] font-normal leading-relaxed max-w-2xl">
               Zentor desarrolla continuamente sus capacidades operativas y
               organizativas con el objetivo de participar progresivamente en
               proyectos y licitaciones de mayor relevancia.
@@ -90,14 +90,14 @@ export default function LicitacionesPage() {
                     <div className="w-11 h-11 border border-[#C7AB65]/15 group-hover:border-[#C7AB65]/40 flex items-center justify-center mb-7 transition-colors duration-400">
                       <Icon
                         size={26}
-                        className="text-[#CBD5E1] group-hover:text-[#C7AB65] transition-colors duration-400"
+                        className="text-[#334155] group-hover:text-[#C7AB65] transition-colors duration-400"
                         strokeWidth={2}
                       />
                     </div>
                     <h2 className="text-base font-semibold text-[#0F2234] group-hover:text-[#0F2234] mb-4 transition-colors duration-300 leading-snug">
                       {p.title}
                     </h2>
-                    <p className="text-sm text-[#94A3B8] leading-relaxed font-light">
+                    <p className="text-sm text-[#334155] leading-relaxed font-normal">
                       {p.description}
                     </p>
                   </div>

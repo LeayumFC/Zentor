@@ -56,7 +56,7 @@ export default function Navbar() {
               className={`relative text-sm font-medium tracking-wide transition-colors duration-200 group ${
                 pathname === link.href
                   ? "text-[#C7AB65]"
-                  : "text-[#475569] hover:text-[#0F2234]"
+                  : "text-[#334155] hover:text-[#0F2234]"
               }`}
             >
               {link.label}
@@ -83,7 +83,7 @@ export default function Navbar() {
 
         {/* Mobile toggle */}
         <button
-          className="lg:hidden text-[#0F2234]/70 hover:text-[#0F2234] transition-colors p-1"
+          className="lg:hidden text-[#334155] hover:text-[#0F2234] transition-colors p-1"
           onClick={() => setMobileOpen((v) => !v)}
           aria-label="Menú"
         >
@@ -110,7 +110,7 @@ export default function Navbar() {
                   className={`py-3.5 text-sm font-medium border-b border-[#0F2234]/[0.07] transition-colors ${
                     pathname === link.href
                       ? "text-[#C7AB65]"
-                      : "text-[#475569] hover:text-[#0F2234]"
+                      : "text-[#334155] hover:text-[#0F2234]"
                   }`}
                 >
                   {link.label}

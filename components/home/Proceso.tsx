@@ -56,7 +56,7 @@ export default function Proceso() {
             </span>
             <div className="h-px w-14 bg-[#C7AB65]" />
           </div>
-          <h2 className="text-4xl md:text-[2.75rem] font-light text-[#0F2234] tracking-tight leading-tight">
+          <h2 className="text-4xl md:text-[2.75rem] font-normal text-[#0F2234] tracking-tight leading-tight">
             Un proceso basado en{" "}
             <span className="text-[#C7AB65] italic">planificación y control.</span>
           </h2>
@@ -85,7 +85,7 @@ export default function Proceso() {
               <h3 className="text-sm font-semibold text-[#0F2234] mb-2.5 group-hover:text-[#0F2234] transition-colors duration-300">
                 {step.title}
               </h3>
-              <p className="text-xs text-[#94A3B8] leading-relaxed font-light">
+              <p className="text-xs text-[#334155] leading-relaxed font-normal">
                 {step.description}
               </p>
             </motion.div>

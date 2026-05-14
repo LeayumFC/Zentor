@@ -23,11 +23,11 @@ export default function Footer() {
               </span>
               <span className="w-1.5 h-1.5 rounded-full bg-[#C7AB65]" />
             </div>
-            <p className="text-white/35 leading-relaxed text-sm font-light max-w-sm mb-2">
+            <p className="text-white/35 leading-relaxed text-sm font-normal max-w-sm mb-2">
               Empresa de construcción e infraestructura orientada al sector
               corporativo, institucional y comercial.
             </p>
-            <p className="text-[#C7AB65]/50 text-xs tracking-wider font-light">
+            <p className="text-[#C7AB65]/50 text-xs tracking-wider font-normal">
               Parte del grupo Biagi & Varnoux.
             </p>
             <div className="flex items-center gap-3 mt-8">
@@ -58,7 +58,7 @@ export default function Footer() {
                 <li key={link.href}>
                   <Link
                     href={link.href}
-                    className="text-sm text-white/35 hover:text-[#C7AB65] transition-colors duration-200 font-light"
+                    className="text-sm text-white/35 hover:text-[#C7AB65] transition-colors duration-200 font-normal"
                   >
                     {link.label}
                   </Link>
@@ -78,7 +78,7 @@ export default function Footer() {
                   size={18}
                   className="text-[#C7AB65]/50 flex-shrink-0 mt-0.5"
                 />
-                <span className="text-sm text-white/35 font-light leading-relaxed">
+                <span className="text-sm text-white/35 font-normal leading-relaxed">
                   La Paz, Bolivia
                 </span>
               </li>
@@ -89,7 +89,7 @@ export default function Footer() {
                 />
                 <a
                   href="mailto:info@zentor.bo"
-                  className="text-sm text-white/35 hover:text-[#C7AB65] transition-colors duration-200 font-light"
+                  className="text-sm text-white/35 hover:text-[#C7AB65] transition-colors duration-200 font-normal"
                 >
                   info@zentor.bo
                 </a>
@@ -101,7 +101,7 @@ export default function Footer() {
                 />
                 <a
                   href="tel:+591"
-                  className="text-sm text-white/35 hover:text-[#C7AB65] transition-colors duration-200 font-light"
+                  className="text-sm text-white/35 hover:text-[#C7AB65] transition-colors duration-200 font-normal"
                 >
                   +591 — —
                 </a>
@@ -112,10 +112,10 @@ export default function Footer() {
 
         {/* Bottom bar */}
         <div className="pt-8 border-t border-white/[0.05] flex flex-col sm:flex-row items-center justify-between gap-4">
-          <p className="text-[11px] text-white/20 font-light">
+          <p className="text-[11px] text-white/20 font-normal">
             © {new Date().getFullYear()} Zentor. Todos los derechos reservados.
           </p>
-          <p className="text-[11px] text-white/20 font-light">
+          <p className="text-[11px] text-white/20 font-normal">
             Parte del grupo{" "}
             <span className="text-[#C7AB65]/40">Biagi & Varnoux</span>
           </p>

@@ -53,11 +53,11 @@ export default function ServiciosSection() {
                 Servicios
               </span>
             </div>
-            <h2 className="text-4xl md:text-[2.75rem] font-light text-[#0F2234] leading-tight tracking-tight">
+            <h2 className="text-4xl md:text-[2.75rem] font-normal text-[#0F2234] leading-tight tracking-tight">
               Soluciones de infraestructura{" "}
               <span className="text-[#C7AB65] italic">y ejecución.</span>
             </h2>
-            <p className="text-[#94A3B8] font-light mt-5 max-w-lg leading-relaxed">
+            <p className="text-[#334155] font-normal mt-5 max-w-lg leading-relaxed">
               Desarrollamos servicios orientados a empresas, instituciones y
               espacios comerciales que requieren ejecución organizada y atención
               profesional.
@@ -73,7 +73,7 @@ export default function ServiciosSection() {
           >
             <Link
               href="/servicios"
-              className="group inline-flex items-center gap-2 text-xs text-[#64748B] hover:text-[#C7AB65] transition-colors duration-300 tracking-wide uppercase font-medium"
+              className="group inline-flex items-center gap-2 text-xs text-[#334155] hover:text-[#C7AB65] transition-colors duration-300 tracking-wide uppercase font-medium"
             >
               Ver todos los servicios
               <ArrowRight
@@ -98,14 +98,14 @@ export default function ServiciosSection() {
                 className="group flex items-start gap-6 md:gap-10 py-8 border-b border-[#0F2234]/[0.08] hover:border-[#C7AB65]/15 transition-colors duration-400 cursor-default"
               >
                 {/* Number */}
-                <span className="text-xs font-light text-[#C7AB65]/25 group-hover:text-[#C7AB65]/60 transition-colors duration-300 w-6 flex-shrink-0 mt-1.5 tracking-wider">
+                <span className="text-xs font-normal text-[#C7AB65]/25 group-hover:text-[#C7AB65]/60 transition-colors duration-300 w-6 flex-shrink-0 mt-1.5 tracking-wider">
                   {s.number}
                 </span>
                 {/* Icon */}
                 <div className="w-10 h-10 flex-shrink-0 border border-[#0F2234]/[0.09] group-hover:border-[#C7AB65]/25 flex items-center justify-center transition-colors duration-400">
                   <Icon
                     size={24}
-                    className="text-[#CBD5E1] group-hover:text-[#C7AB65] transition-colors duration-400"
+                    className="text-[#334155] group-hover:text-[#C7AB65] transition-colors duration-400"
                     strokeWidth={2}
                   />
                 </div>
@@ -114,7 +114,7 @@ export default function ServiciosSection() {
                   <h3 className="text-base font-semibold text-[#0F2234] group-hover:text-[#0F2234] mb-2 transition-colors duration-300">
                     {s.title}
                   </h3>
-                  <p className="text-sm text-[#94A3B8] leading-relaxed font-light max-w-2xl">
+                  <p className="text-sm text-[#334155] leading-relaxed font-normal max-w-2xl">
                     {s.description}
                   </p>
                 </div>

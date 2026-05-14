@@ -29,12 +29,12 @@ export default function CTA() {
             <div className="h-px w-14 bg-[#C7AB65]" />
           </div>
 
-          <h2 className="text-4xl md:text-5xl lg:text-[3.25rem] font-light text-white leading-[1.1] tracking-tight mb-7">
+          <h2 className="text-4xl md:text-5xl lg:text-[3.25rem] font-normal text-white leading-[1.1] tracking-tight mb-7">
             Hablemos sobre su{" "}
             <span className="text-[#C7AB65] italic">próximo proyecto.</span>
           </h2>
 
-          <p className="text-base text-white/35 leading-relaxed mb-12 font-light">
+          <p className="text-base text-white/35 leading-relaxed mb-12 font-normal">
             Nuestro equipo está preparado para desarrollar soluciones de
             infraestructura adaptadas a las necesidades de su empresa u
             organización.

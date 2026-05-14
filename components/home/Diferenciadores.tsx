@@ -55,7 +55,7 @@ export default function Diferenciadores() {
             </span>
             <div className="h-px w-14 bg-[#C7AB65]" />
           </div>
-          <h2 className="text-4xl md:text-[2.75rem] font-light text-[#0F2234] leading-tight tracking-tight max-w-2xl mx-auto">
+          <h2 className="text-4xl md:text-[2.75rem] font-normal text-[#0F2234] leading-tight tracking-tight max-w-2xl mx-auto">
             Un enfoque corporativo dentro del{" "}
             <span className="text-[#C7AB65] italic">sector construcción.</span>
           </h2>
@@ -91,7 +91,7 @@ export default function Diferenciadores() {
                 <h3 className="text-sm font-semibold text-[#0F2234]/90 mb-3 leading-snug tracking-wide">
                   {card.title}
                 </h3>
-                <p className="text-sm text-[#94A3B8] leading-relaxed font-light">
+                <p className="text-sm text-[#334155] leading-relaxed font-normal">
                   {card.description}
                 </p>
               </motion.div>

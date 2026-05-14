@@ -39,7 +39,7 @@ export default function Hero() {
             initial={{ opacity: 0, y: 28 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.9, delay: 0.2, ease: [0.25, 0.1, 0.25, 1] }}
-            className="text-5xl md:text-6xl lg:text-[4.5rem] font-light text-[#0F2234] leading-[1.07] tracking-tight mb-8"
+            className="text-5xl md:text-6xl lg:text-[4.5rem] font-normal text-[#0F2234] leading-[1.07] tracking-tight mb-8"
           >
             Infraestructura corporativa{" "}
             <br className="hidden md:block" />
@@ -53,7 +53,7 @@ export default function Hero() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.38 }}
-            className="text-base md:text-lg text-[#64748B] leading-relaxed max-w-2xl mb-14 font-light"
+            className="text-base md:text-lg text-[#334155] leading-relaxed max-w-2xl mb-14 font-normal"
           >
             Zentor desarrolla soluciones de construcción, remodelación e
             infraestructura para empresas e instituciones, con un enfoque basado
@@ -79,7 +79,7 @@ export default function Hero() {
             </Link>
             <Link
               href="/servicios"
-              className="inline-flex items-center justify-center gap-3 px-8 py-4 border border-[#0F2234]/15 text-[#0F2234]/70 text-xs font-medium tracking-[0.12em] uppercase hover:border-white/30 hover:text-[#0F2234] transition-all duration-300"
+              className="inline-flex items-center justify-center gap-3 px-8 py-4 border border-[#0F2234]/15 text-[#334155] text-xs font-medium tracking-[0.12em] uppercase hover:border-white/30 hover:text-[#0F2234] transition-all duration-300"
             >
               Conocer servicios
             </Link>
@@ -98,10 +98,10 @@ export default function Hero() {
               { value: "100%", label: "Proyectos con póliza" },
             ].map((s) => (
               <div key={s.label}>
-                <div className="text-2xl md:text-3xl font-light text-[#C7AB65] mb-1.5 tracking-tight">
+                <div className="text-2xl md:text-3xl font-normal text-[#C7AB65] mb-1.5 tracking-tight">
                   {s.value}
                 </div>
-                <div className="text-[10px] text-[#94A3B8] uppercase tracking-[0.18em] leading-relaxed">
+                <div className="text-[10px] text-[#334155] uppercase tracking-[0.18em] leading-relaxed">
                   {s.label}
                 </div>
               </div>
@@ -115,7 +115,7 @@ export default function Hero() {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 1.4, duration: 0.8 }}
-        className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 text-[#CBD5E1]"
+        className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 text-[#334155]"
       >
         <span className="text-[9px] tracking-[0.4em] uppercase">Scroll</span>
         <motion.div
